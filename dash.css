@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: gainsboro;
+  text-align: center;
+}
+
+.filter {
+  text-align: center;
+}
+
+form {
+  padding: 50px 0;
+  display: inline-block;
+}
+
+.story {
+  border: 2px solid gainsboro;
+  border-radius: 25px;
+  /* padding: 25px; */
+  text-align: center;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.story a {
+  text-decoration: none;
+}
+
+footer {
+  margin: 0;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: gainsboro;
+}
+
+p {
+  text-align: center;
+}
